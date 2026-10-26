@@ -8,10 +8,10 @@ namespace Tyuiu.KorovinMK.Sprint3.Task1.V11.Lib
             double MultiplySeries = 1;
             while (startValue <= stopValue)
             {
-                MultiplySeries = MultiplySeries * (Math.Pow(value, startValue) + (1 / 2));
+                MultiplySeries = MultiplySeries * (Math.Pow(value, startValue) + 0.5 );
                 startValue++;
             }
-            return Math.Pow(MultiplySeries, 3);
+            return Math.Round(MultiplySeries, 3);
         }
     }
 }

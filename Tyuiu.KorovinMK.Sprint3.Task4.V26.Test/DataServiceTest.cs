@@ -12,7 +12,7 @@ namespace Tyuiu.KorovinMK.Sprint3.Task4.V26.Test
             int stopValue = 5;
 
             double res = ds.Calculate(startValue, stopValue);
-            double wait = -0.858;
+            double wait = -1.924;
             Assert.AreEqual(wait, res);
 
         }

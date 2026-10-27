@@ -10,7 +10,7 @@ namespace Tyuiu.KorovinMK.Sprint3.Task4.V26.Lib
             {
                 if (x == 0)
                 {
-                    break;
+                    continue;
                 }
                 else
                 {

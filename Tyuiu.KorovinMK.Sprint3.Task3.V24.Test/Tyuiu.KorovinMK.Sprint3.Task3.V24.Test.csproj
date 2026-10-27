@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>Tyuiu.KorovinMK.Sprint3._Task3.V24.Test</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -12,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.KorovinMK.Sprint3. Task3.V24.Lib\Tyuiu.KorovinMK.Sprint3.Task3.V24.Lib.csproj" />
+    <ProjectReference Include="..\Tyuiu.KorovinMK.Sprint3.Task3.V24.Lib\Tyuiu.KorovinMK.Sprint3.Task3.V24.Lib.csproj" />
   </ItemGroup>
 
   <ItemGroup>

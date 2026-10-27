@@ -14,7 +14,6 @@ namespace Tyuiu.KorovinMK.Sprint3.Task3.V24.Test
             string res = ds.ReplaceCharInString(value, replaceable, replacement);
             string wait = "*ft h**t nt*";
             Assert.AreEqual(wait, res);
-
         }
     }
 }

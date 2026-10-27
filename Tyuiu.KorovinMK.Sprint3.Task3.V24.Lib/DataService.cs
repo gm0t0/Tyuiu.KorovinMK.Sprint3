@@ -5,15 +5,17 @@ namespace Tyuiu.KorovinMK.Sprint3.Task3.V24.Lib
     {
         public string ReplaceCharInString(string value, char replaceable, char replacement)
         {
-            string str = "gft hggt ntg";
-            foreach (char c in str)
             {
-                if (c == replaceable)
+                string str = "gft hggt ntg";
+                foreach (char c in str)
                 {
-                    str = str.Replace(c, replaceable);
+                    if (c == 'g')
+                    {
+                        str = str.Replace(c, '*');
+                    }
                 }
+                return str;
             }
-            return str;
         }
     }
 }

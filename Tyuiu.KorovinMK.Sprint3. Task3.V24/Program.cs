@@ -12,8 +12,8 @@ class Program
         Console.WriteLine("*****************************************************************************");
         Console.WriteLine("* Спринт #3                                                                 *");
         Console.WriteLine("* Тема: Базовые навыки работы в C#                                          *");
-        Console.WriteLine("* Задание #2                                                                *");
-        Console.WriteLine("* Вариант #25                                                               *");
+        Console.WriteLine("* Задание #3                                                                *");
+        Console.WriteLine("* Вариант #24                                                               *");
         Console.WriteLine("* Выполнил: Коровин Матвей Константинович| ИСТНб-26-1                       *");
         Console.WriteLine("*****************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                  *");

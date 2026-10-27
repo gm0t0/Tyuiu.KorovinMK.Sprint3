@@ -8,9 +8,9 @@ namespace Tyuiu.KorovinMK.Sprint3.Task3.V24.Lib
             string str = "gft hggt ntg";
             foreach (char c in str)
             {
-                if (c == 'g')
+                if (c == replaceable)
                 {
-                    str = str.Replace(c, '*');
+                    str = str.Replace(c, replaceable);
                 }
             }
             return str;
